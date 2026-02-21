@@ -15,7 +15,7 @@ body {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20 px;
+    padding: 20px;
 }
 
 header {
@@ -60,13 +60,13 @@ h2 {
     margin-bottom: 10px;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 p {
     margin-bottom: 15px;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
@@ -74,3 +74,14 @@ footer {
     color: white;
     margin-top: 30px;
 }
+
+@media (max-width: 600px) {
+    .wrapper {
+      width: 95%;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
